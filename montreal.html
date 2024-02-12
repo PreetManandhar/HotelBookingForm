@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Montreal</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Montreal-Tourism</h1>
+        <h2>A trip evaluator for a visit</h2>
+        <form class="myForm">
+            
+            <table>
+                <tr>
+                    <td>Visitor:</td>
+                    <td>
+                        <input id="name" type="text" name="user_name" size="30" placeholder="your name" maxlength="50"><br>
+                    </td>
+                </tr>
+
+                <!--for option SEX-->
+                <tr>
+                    <td>Sex:</td>
+                    <td>
+                        <input id="ma" type="radio" name="sex" value="male" />
+                        <label for="ma">Male</label> <br />
+                        <input id="fe" type="radio" name="sex" value="female" />
+                        <label for="fe">Female</label> <br />
+                    </td>
+                </tr>
+
+                <!--for option Number-->
+                <tr>
+                    <td>Number:</td>
+                    <td>
+                        <select name="s_num">
+                            <option value="one" selected="selected">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                            <option value="six">6</option>
+                        </select>
+                        <label for="pr">persons</label> <br />
+
+                    </td>
+                </tr>
+                <!--for option Duration-->
+                <tr>
+                    <td>Duration:</td>
+                    <td>
+                        <select name="s_dur">
+                            <option value="one" selected="selected">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                            <option value="six">6</option>
+                            <option value="seven">7</option>
+                            <option value="eight">8</option>
+                            <option value="nine">9</option>
+                            <option value="ten">10</option>
+                            <option value="eleven">11</option>
+                            <option value="twelve">12</option>
+                            <option value="thirteen">13</option>
+                            <option value="fourteen">14</option>
+                            <option value="fifteen">15</option>
+                        </select>
+                        <label for="da">days</label> <br />
+
+                    </td>
+                </tr>
+                <!--for option Hotel-->
+                <tr>
+                    <td>Hotel:</td>
+                    <td>
+                        <select name="s_hotel">
+                            <option value="one">1 stars</option>
+                            <option value="two">2 stars</option>
+                            <option value="three" selected="selected">3 stars</option>
+                            <option value="four">4 stars</option>
+                            <option value="five">5 stars</option>
+                        </select>
+                    </td>
+                </tr>
+                <!--for option Room Type-->
+                <tr>
+                    <td>Room Type:</td>
+                    <td>
+                        <select name="s_room" size="3" multiple="multiple">
+                            <option value="s_room">Single room</option>
+                            <option value="s_suite" selected="selected">Semi-suite</option>
+                            <option value="suite">Suite</option>
+                        </select>
+                    </td>
+                </tr>
+                <!--option for Activities-->
+                <tr>
+                    <td>Activities:</td>
+                    <td>
+                        <input id="cb" type="checkbox" name="city-bus-tours can" value="OK" />
+                        <label for="cb">City-bus-tours Can$ 20</label> <br />
+                        <input id="sp" type="checkbox" name="spa-manage-can" value="OK" />
+                        <label for="sp">Spa-Manage-Can$ 100</label> <br />
+                        <input id="se" type="checkbox" name="sport event can" value="OK" />
+                        <label for="se">Sport event Can$ 150</label> <br />
+                    </td>
+                </tr>
+
+            </table>
+            <button type="submit" name="b_submit" value="submit">Evaluate</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿body {
+    font-family: Arial, Helvetica, serif;
+}
+.container {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+    background: linear-gradient(135deg, cyan, #00DDDD); /* progressive enhancement */
+
+    box-shadow: inset 1px 1px 4px #999999;
+    border-radius: 5px;
+}
+
+    .container h1 {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .container h2 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+.myForm table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px; /* to comply to the layout image*/
+}
+
+.myForm button:first-of-type {
+    margin: 20px;
+}
+
+.myForm table td {
+    padding: 10px;
+}
+
+.myForm tr:hover {
+    font-weight: bold;
+}
+
+
+.myForm button:hover {
+    font-weight: bold;
+}
+
+.myForm td:first-child {
+    width: 90px;
+    margin-left: 20px;
+}
